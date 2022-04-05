@@ -2,7 +2,7 @@
 
 live site: [Guitar Bazar](https://peppy-rugelach-c9d844.netlify.app/).
 
-## Anout this webSite
+## About this webSite
 
 - It is a website for online Shop.
 - I gave the name Guitar Bazar
@@ -14,4 +14,4 @@ live site: [Guitar Bazar](https://peppy-rugelach-c9d844.netlify.app/).
 
 ### `live site:` 
 
-live site link: [https://peppy-rugelach-c9d844.netlify.app/blog](https://peppy-rugelach-c9d844.netlify.app/)
+live site link: [https://peppy-rugelach-c9d844.netlify.app/](https://peppy-rugelach-c9d844.netlify.app/)
