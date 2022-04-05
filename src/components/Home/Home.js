@@ -1,4 +1,5 @@
 import React from 'react';
+import Reviews from '../Reviews/Reviews';
 
 const Home = () => {
     return (
@@ -14,6 +15,10 @@ const Home = () => {
                 <div className='col-span-1'>
                     <img src="https://www.nicepng.com/png/detail/55-556715_girl-playing-an-acoustic-guitar-music-girl.png" alt="" />
                 </div>
+            </div>
+            <Reviews></Reviews>
+            <div>
+            <button className='bg-orange-300 py-4 rounded my-4 px-8 text-2xl hover:bg-orange-700'> <a href=" ">Sell All Reviews</a> </button>
             </div>
         </div>
         

@@ -3,12 +3,14 @@ import BuyerReview from '../BuyerReview/BuyerReview';
 
 const Reviews = () => {
     const buyerReviews=[
-        {id: 1, name:'bang-1', rattings:4.5},
-        {id: 2, name:'bang-2', rattings:3.5},
-        {id: 3, name:'bang-3', rattings:4.0},
-        {id: 4, name:'bang-4', rattings:4.5},
-        {id: 5, name:'bang-5', rattings:5},
-        {id: 6, name:'bang-6', rattings:4.5},
+        {id: 1, name:'Hero', rattings:4.5 , comment: 'this is very good'},
+        {id: 2, name:'Alom 15', rattings:3.5, comment: 'This is awesome, but price is so high. The price could have been reduced a little more'},
+        {id: 3, name:'Bacca Shakib', rattings:4.0, comment: 'this is very good'},
+        {id: 4, name:'Apu Vabi', rattings:4.5, comment: 'this is very good'},
+        {id: 5, name:'Bappa cheka', rattings:5, comment: 'not bad'},
+        {id: 6, name:'Bappi kaku', rattings:4.5, comment: 'i like it very much'},
+        {id: 6, name:'nuru cro', rattings:4.5, comment: 'i like it very much'},
+        {id: 6, name:'khalid bro', rattings:4.5, comment: 'i like it very much'},
     ]
     return (
         <div>
