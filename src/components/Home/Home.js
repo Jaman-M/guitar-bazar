@@ -1,7 +1,11 @@
 import React from 'react';
-import Reviews from '../Reviews/Reviews';
+import { Link } from 'react-router-dom';
+import useReview from '../../Hook/userReview';
+import BuyerReview from '../BuyerReview/BuyerReview';
+
 
 const Home = () => {
+    const[reviews]=useReview()
     return (
         <div>
             <h1 className='text-3xl font-bold  mt-10'>Welcome to <span className='text-3xl font-bold text-orange-500 mt-10'>Guitar Bazar</span></h1>
@@ -16,9 +20,20 @@ const Home = () => {
                     <img src="https://www.nicepng.com/png/detail/55-556715_girl-playing-an-acoustic-guitar-music-girl.png" alt="" />
                 </div>
             </div>
-            <Reviews></Reviews>
+            {/* <Reviews></Reviews> */}
             <div>
-            <button className='bg-orange-300 py-4 rounded my-4 px-8 text-2xl hover:bg-orange-700'> <a href=" ">Sell All Reviews</a> </button>
+            <h1 className='text-4xl my-10'>Buyer <span className='text-4xl text-orange-500 font-bold'>Reviews!!</span></h1>
+                <div className='grid md:grid-cols-3 gap-3 mt-8'>
+                {
+                    reviews.slice(0,3).map(review => <BuyerReview 
+                    key={review.id}
+                    review={review}
+                    ></BuyerReview>)
+                }
+            </div>
+            </div>
+            <div>
+            <button className='bg-orange-300 py-4 rounded my-4 px-8 text-2xl hover:bg-orange-700'> <Link to="/reviews">See All reviews</Link></button>
             </div>
         </div>
         
