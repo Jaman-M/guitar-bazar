@@ -39,7 +39,7 @@ const Dashboard = () => {
             "sell": 670,
             "revenue": 61000
         }
-    ]
+    ];
     return (
         <LineChart width={400} height={500} data={data}>
             <Line dataKey={'revenue'} type="monotone"></Line>
@@ -49,6 +49,8 @@ const Dashboard = () => {
             <XAxis dataKey={"month"}></XAxis>
             <YAxis></YAxis>
         </LineChart>
+
+        
     );
 };
 
