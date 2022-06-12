@@ -10,6 +10,8 @@ live site: [Guitar Bazar](https://peppy-rugelach-c9d844.netlify.app/).
 - I show here two charts 1. line chart , 2. AreaChart
 - Question and answer has been written in Blogs 
 
+-react, react router 
+
 
 
 ### `live site:` 
